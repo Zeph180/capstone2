@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
+nav{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: right;
+  padding:  0 5px;
+}
+
+#cards-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+#desc {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+}
+
+#name-like {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#name {
+  margin: 0;
+}
+
+.like-btn {
+  display: block;
+  margin-left: 6px;
+}
+
+button {
+  width: 80%;
+}
+
+#popup {
+  position: fixed;
+  background-color: aqua;
+  width: 70%;
+  margin-left: 15%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  border: 2px solid;
+}
+
+#popup img {
+  width: 40%;
+  height: auto;
+}
+
+#close-btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 40px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+
+#desc-sec {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#pop-desc {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+  justify-content: center;
+}
+
+#pop-desc p {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  display: block;
+  margin-bottom: 10px;
+}
+form button {
+  margin-left: 10%;
+}
+
+textarea {
+  resize: none;
+}
+
+
+#popup h3 {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  background-color: orange;
+}
